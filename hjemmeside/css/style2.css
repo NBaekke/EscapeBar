@@ -41,45 +41,45 @@ header {
    margin-top: -15px;
  }
 
-  #massertekst {
-    font-family: 'Chivo', sans-serif;
-    color: rgb(193, 39, 45);
-  }
+#massertekst p {
+  margin-left: 18px;
+  font-size: 17px;
+ }
 
-  #overskrift {
-    margin-top: 15px;
-    text-align: center;
-    width: 100%;
-    font-size: 35px;
-  }
+#massertekst {
+  font-family: 'Chivo', sans-serif;
+  color: rgb(193, 39, 45);
+  columns: 100px 3;
+  margin-top: 15px;
+}
 
-  p {
-    margin-left: 18px;
-    font-size: 17px;
-  }
-
-  #tidspunkt {
-    font-size: 15px;
-    text-align: center;
-  }
-
-  #infotekst {
-    margin-top: 15px;
-    text-align: left;
-  }
+h1 {
+  margin-top: 15px;
+  text-align: center;
+  font-family: 'Chivo', sans-serif;
+  color: rgb(193, 39, 45);
+}
 
   hr {
     width: 95%;
-    margin: 0 auto;
+    margin-left: 15px;
     border-color: rgb(193, 39, 45);
     border-top: 1px solid rgb(193, 39, 45);
   }
 
-  #drinks {
-    font-size: 25px;
-    text-align: center;
+  .drikkevare {
+    margin-top: 10px;
   }
 
-  #drinkstekst {
-    margin-top: 10px;
+  #massertekst .lavpris {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+
+  #massertekst .drikkevare2 {
+    float: left;
+  }
+
+  #massertekst .pris {
+    float: right;
   }
