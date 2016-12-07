@@ -18,7 +18,7 @@ header {
   margin: 0 auto;
   width: 50%;
   height: 720px;
-  background: white;
+  background: black;
   border-radius: 0px 0px 25px 25px;
 }
 
@@ -43,6 +43,7 @@ header {
 
   #massertekst {
     font-family: 'Chivo', sans-serif;
+    color: white;
   }
 
   #overskrift {
@@ -53,8 +54,8 @@ header {
   }
 
   p {
-    margin-left: 15px;
-    font-size: 15px;
+    margin-left: 18px;
+    font-size: 17px;
   }
 
   #tidspunkt {
@@ -63,6 +64,20 @@ header {
   }
 
   #infotekst {
+    margin-top: 15px;
     text-align: left;
-    font-size: 17px;
+  }
+
+  hr {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  #drinks {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  #drinkstekst {
+    margin-top: 10px;
   }
