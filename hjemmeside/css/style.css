@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  background: darkred;
+  background: -webkit-linear-gradient(darkred, black);
+  background: -o-linear-gradient(darkred, black);
+  background: -moz-linear-gradient(darkred, black);
+  background: linear-gradient(darkred, black);
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.mainboks {
+  margin: 0 auto;
+  width: 50%;
+  height: 720px;
+  background: white;
+  border-radius: 0px 0px 25px 25px;
+}
+
+#backgroundlogo {
+  background-image: url("backgroundlogo123.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 175px;
+}
+
+ #logo {
+   position: absolute;
+   background-image: url("ESCAPEglow.png");
+   background-repeat: no-repeat;
+   background-size: contain;
+   height: 150px;
+   width: 300px;
+   margin-left: 0px;
+   margin-top: -15px;
+ }
+
+  #massertekst {
+    font-family: 'Chivo', sans-serif;
+  }
+
+  #overskrift {
+    margin-top: 15px;
+    text-align: center;
+    width: 100%;
+    font-size: 33px;
+  }
+
+  p {
+    margin-left: 15px;
+    font-size: 15px;
+  }
+
+  #tidspunkt {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  #infotekst {
+    text-align: left;
+    font-size: 17px;
+  }
