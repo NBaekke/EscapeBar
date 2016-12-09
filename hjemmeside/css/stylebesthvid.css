@@ -14,7 +14,7 @@ section {
 
 .mainboks {
   margin: 0 auto;
-  width: 50%;
+  width: 750px;;
   height: 1475px;
   background: white;
   border-radius: 0px 0px 25px 25px;
@@ -45,11 +45,17 @@ section {
 
 #massertekst {
   height: 800px;
+  width: 500px;
+  margin: 0 auto;
   font-family: 'Chivo', sans-serif;
   color: rgb(193, 39, 45);
-
   margin-top: 15px;
   text-align: center;
+}
+
+#alledrinks {
+  margin: 0 auto;
+  height: 400px;
 }
 
 h1 {
@@ -60,7 +66,7 @@ h1 {
 }
 
 hr {
-  width: 29%;
+  width: 45%;
   border-color: rgb(193, 39, 45);
   border-top: 1px solid rgb(193, 39, 45);
   margin: 0 auto;
@@ -71,18 +77,17 @@ hr {
 }
 
 #massertekst .lavpris {
-  font-size: 13px;
-  margin-left: 5px;
+  font-size: 12px;
 }
 
 #massertekst .drikkevare2 {
   float: left;
-  margin-left: 270px;
+  margin-left: 28%;
 }
 
 #massertekst .pris {
   float: right;
-  margin-right: 270px;
+  margin-right: 28%;
 }
 
 #massertekst .drikkevare {
@@ -103,7 +108,9 @@ hr {
 }
 
 #drinks2 {
+  position: absolute;
   margin: 0 auto;
+  margin-top: 45px;
   width: 500px;
   -webkit-columns: 100px 2;
   -moz-columns: 100px 2;
