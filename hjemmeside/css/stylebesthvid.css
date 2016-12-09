@@ -9,19 +9,19 @@ section {
   background: -o-linear-gradient(rgb(193, 39, 45), black);
   background: -moz-linear-gradient(rgb(193, 39, 45), black);
   background: linear-gradient(rgb(193, 39, 45), black);
-  height: 1500px;
+  height: 1575px;
 }
 
 .mainboks {
   margin: 0 auto;
   width: 750px;;
-  height: 1475px;
+  height: 1525px;
   background: white;
   border-radius: 0px 0px 25px 25px;
 }
 
 #backgroundlogo {
-  background-image: url("backgroundlogo123.jpg");
+  background-image: url("baggrundlogo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -34,8 +34,7 @@ section {
    background-repeat: no-repeat;
    background-size: contain;
    height: 150px;
-   width: 300px;
-   margin-left: 0px;
+   width: 275px;
    margin-top: -15px;
  }
 
@@ -51,6 +50,28 @@ section {
   color: rgb(193, 39, 45);
   margin-top: 15px;
   text-align: center;
+}
+
+#drinkscarlsberg {
+  position: absolute;
+  background-image: url("carlsberg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 150px;
+  width: 200px;
+  margin-left: 95px;
+  margin-top: 25px;
+}
+
+#drinkstuborg {
+  position: absolute;
+  background-image: url("tuborg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 150px;
+  width: 200px;
+  margin-left: 75px;
+  margin-top: 25px;
 }
 
 #alledrinks {
@@ -70,6 +91,17 @@ hr {
   border-color: rgb(193, 39, 45);
   border-top: 1px solid rgb(193, 39, 45);
   margin: 0 auto;
+}
+
+#drinksbillede {
+  position: absolute;
+  background-image: url("drinks.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 150px;
+  width: 200px;
+  margin-left: 450px;
+  margin-top: -25px;
 }
 
 .drikkevare {
@@ -96,7 +128,6 @@ hr {
 
 #massertekst .indhold {
   font-size: 17px;
-
 }
 
 #massertekst .indhold3 {
@@ -116,4 +147,12 @@ hr {
   -moz-columns: 100px 2;
   -o-columns: 100px 2;
   columns: 100px 2;
+}
+
+#contactus {
+  margin-top: 500px;
+  font-family: 'Chivo', sans-serif;
+  color: rgb(193, 39, 45);
+  font-size: 13px;
+  text-align: center;
 }
